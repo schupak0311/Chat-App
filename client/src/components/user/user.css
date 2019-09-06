@@ -1,0 +1,19 @@
+.user {
+    margin: 15px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.user__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user__text-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.user__text {
+    margin: 0 5px !important;
+}

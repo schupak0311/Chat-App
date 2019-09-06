@@ -1,0 +1,14 @@
+.message-editor {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+}
+
+.message-editor__button-wrapper {
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}

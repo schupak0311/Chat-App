@@ -1,0 +1,98 @@
+.message__text-wrapper {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.message--self {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 15px 10px 0;
+
+}
+
+.message--other {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.message__body p {
+    word-wrap: break-word;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .message__card {
+        max-width: 80% !important;
+    }
+}
+
+.message__control {
+    margin-top: 10px;
+}
+
+.message__control i {
+    font-size: 18px;
+    margin: 0 10px;
+    color: grey;
+    transition: color .3s ease; 
+}
+
+.message__control i:hover {
+    cursor: pointer;
+}
+
+.message__control .fa-trash-alt:hover {
+    color: #C62828;
+}
+
+.message__control .fa-edit:hover {
+    color: #5682a3;
+}
+
+.message__control i:first-child {
+    margin-left: 0;
+}
+
+.message__control i:last-child {
+    margin-right: 0;
+}
+
+.like{
+    display: none;
+    margin-left: 20px;
+}
+
+.like--open {
+    margin-left: 20px;
+    display: block;
+}
+
+.like i{
+    font-size: 24px;
+    background-color: #5682a3;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    transition: color .3s ease;
+}
+
+.like--open i {
+    font-size: 24px;
+    background-color: #5682a3;
+    padding: 10px;
+    border-radius: 50%;
+    color: #C62828;
+    transition: color .3s ease;
+}
+
+.like:hover i {
+    color: #C62828;
+    cursor: pointer;
+}
+
+.message--other:hover .like {
+    display: block;
+}

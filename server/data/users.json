@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "username": "Kate",
+    "password": "qwerty",
+    "avatar": "https://i.pravatar.cc/300?img=23",
+    "isAdmin": true
+  },
+  {
+    "id": 2,
+    "username": "Dave",
+    "password": "qwerty",
+    "avatar": "https://i.pravatar.cc/300?img=14",
+    "isAdmin": false
+  },
+  {
+    "id": 3,
+    "username": "Taylor",
+    "password": "qwerty",
+    "avatar": "https://i.pravatar.cc/300?img=12",
+    "isAdmin": false
+  },
+  {
+    "id": 4,
+    "username": "Kim",
+    "password": "qwerty",
+    "avatar": "https://i.pravatar.cc/300?img=31",
+    "isAdmin": false
+  },
+  {
+    "id": 5,
+    "username": "Kyle",
+    "password": "qwerty",
+    "avatar": "https://i.pravatar.cc/300?img=11",
+    "isAdmin": false
+  },
+  {
+    "id": 5,
+    "username": "Kate",
+    "password": "qwerty",
+    "avatar": "https://i.pravatar.cc/300?img=5",
+    "isAdmin": false
+  }
+]
